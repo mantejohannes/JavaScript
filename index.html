@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1 id="heading1"></h1>
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
+
+        <!-- This is a comment in JavaScript -->
+
+    <script>
+        var text1 ;// Declare a variable named text1
+        var text2 ;// Declare a variable named text2
+        var text3 ;// Declare a variable named text3
+
+        var num1 = 5 ; // Declare a variable named num1 and assign it a value of 5
+        var num2 = 10 ; // Declare a variable named num2 and assign it a value of 10
+
+        text1 = "Hellow World!"; // Assign a string to text1
+        text2 = "I enjoy coding."; // Assign a string to text2
+        text3 = "This is a JavaScript example."; // Assign a string to text3
+
+
+        document.getElementById("heading1").innerHTML = (text1); // Set the content of the heading element
+        document.getElementById("paragraph1").innerHTML = (text2 + ' ' + text3); // Set the content of the paragraph element
+        document.getElementById("paragraph2").innerHTML = ("The answer is: " + (num1 + " + " + num2 + " = " + (num1 + num2)));   // Set the content of the second paragraph element 
+   </script> 
+</body>
+</html>
