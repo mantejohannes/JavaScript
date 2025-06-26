@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Conditions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="output"></p>    <!-- Paragraph to display the output -->
+
+    <script>
+        var userInputPassword = "1234"; // Simulated user input password
+        var actualPassword = "1234";    // The actual password to check against
+
+        if (userInputPassword == actualPassword) {         // Check if the input password matches the actual password
+           
+            // If the passwords match, display "Access granted"
+            document.getElementById("output").innerHTML = "Access granted"; // Correct password
+        
+        } else {
+
+            // If the passwords do not match, display "Access denied"
+            document.getElementById("output").innerHTML = "Access denied";  // Incorrect password
+        }   
+    </script>
+    
+</body>
+</html>
